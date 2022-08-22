@@ -1,5 +1,16 @@
-###示例
-```
+package org.xlp;
+
+import java.io.File;
+
+import org.docx4j.openpackaging.exceptions.Docx4JException;
+import org.xlp.docx.DocxBookmarkTemplate;
+
+/**
+ * <p>创建时间：2021年11月27日 下午5:21:14</p>
+ * @author xlp
+ * @version 1.0 
+ * @Description 类描述
+*/
 public class Docx4jTest {
 	public static void main(String[] args) throws Docx4JException {
 		DocxBookmarkTemplate docxBookmarkTemplate = new DocxBookmarkTemplate("f:/12.docx");
@@ -11,4 +22,3 @@ public class Docx4jTest {
 		docxBookmarkTemplate.close();
 	}
 }
-```

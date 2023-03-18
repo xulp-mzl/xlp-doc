@@ -132,6 +132,7 @@
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-compress</artifactId>
 			<version>${commons-compress.version}</version>
+			<optional>true</optional>
 		</dependency>
 	</dependencies>
 
